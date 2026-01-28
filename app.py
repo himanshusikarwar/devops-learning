@@ -1,1 +1,1 @@
-CI/CD Test Successful
+print("CI/CD Test Successful")
