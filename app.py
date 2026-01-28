@@ -1,5 +1,5 @@
-def main():
-    return "Hello"
+import os
 
-if __name__ == "__main__":
-    print(main())
+def main():
+    name = os.getenv("APP_NAME", "Hello")
+    return name
