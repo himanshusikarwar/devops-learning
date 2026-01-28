@@ -1,8 +1,5 @@
 name: First CI Pipeline
 
-env:
-  APP_NAME: Hello
-
 on:
   push:
     branches:
@@ -11,6 +8,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      APP_NAME: Hello
 
     steps:
       - name: Checkout Code
