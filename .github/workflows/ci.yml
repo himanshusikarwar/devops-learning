@@ -1,5 +1,8 @@
 name: First CI Pipeline
 
+env:
+  APP_NAME: Hello
+
 on:
   push:
     branches:
