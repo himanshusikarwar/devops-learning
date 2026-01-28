@@ -20,3 +20,10 @@ jobs:
 
       - name: Run App
         run: python app.py
+
+      - name: Install pytest
+        run: pip install pytest
+      
+      - name: Run Tests
+        run: pytest
+
